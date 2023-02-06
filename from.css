@@ -1,0 +1,535 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+   
+    
+    
+
+
+}
+
+.main{
+
+    height: 100vh;
+    width: 100vw;
+    background-color:transparent;
+    flex-direction: column;
+    
+    
+
+
+
+}
+
+/* navbar */
+
+.header{
+
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    
+    
+    
+    
+
+
+}
+
+.left_side{
+
+    height: 70px;
+    width: 50vw;
+    display: flex;
+    gap: 10px;
+}
+
+.logo img{
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.text h2{
+
+    color: white;
+    font-size: 25px;
+    margin-top: 5px;
+   
+}
+.text p{
+    color:violet;
+    font-size: 15px;
+}
+
+.text input{
+    border: 1px solid ;
+    background-color: green;
+    border-radius: 5px;
+
+}
+
+.text input:hover{
+    color: white;
+    cursor: pointer;
+}
+
+
+.right_side{
+
+    height: 70px;
+    width: 50vw;
+    display: flex;
+    background-color:black;
+    gap: 20px;
+    justify-content: space-evenly;
+
+
+}
+
+.sing_up {
+    height: 50px;
+    width: 70px;
+    background-color:gray;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+    
+}
+
+.sing_up h3{
+    font-size: 20px;
+    padding-left: 5px;
+    padding-top: 10px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+.sing_up:hover{
+    background-color: rgb(83, 80, 80);
+}
+
+
+.log_in{
+
+    height: 50px;
+    width: 70px;
+    background-color:green;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+
+.log_in h3{
+    font-size: 21px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    cursor: pointer;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.log_in:hover{
+    background-color: lightgreen;
+    
+}
+
+
+
+.editor{
+
+    height: 50px;
+    width: 140px;
+    background-color:gray;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
+
+
+.editor h3{
+    font-size: 18px;
+    padding-left: 13px;
+    padding-top: 10px;
+
+    cursor: pointer;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.editor:hover{
+    background-color:rgb(83, 80, 80) ;
+}
+
+/* nave bar end  */
+
+.icon span{
+    color:white;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.icon span:hover{
+    background-color: black;
+    border-radius: 50%;
+}
+
+
+/* main body  */
+.container1{
+
+    height: 100px;
+    width: 600px;
+    background-color:transparent;
+    margin-left: 30%;
+    margin-top: 20px;
+   
+}
+
+.container1 h2{
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+
+}
+.container1 p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+
+.container2{
+    height: 100%;
+    width: 700px;
+    background-color: rgb(117, 178, 235);
+    margin-top: 20px;
+    margin-left: 26%;
+    border: 2px solid;
+    opacity: 0.8;
+    flex-direction: column;
+   
+    
+}
+
+
+.name{
+    height: 70px;
+    width:680px ;
+    
+    margin-top: 10px;
+    margin-left: 6px;
+
+}
+.name h3{
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+   
+
+}
+
+.name input{
+    
+    margin-left: 10px;
+   width: 600px;
+   border: 1PX SOLID white;
+   outline: none;
+   border-radius: 5px;
+   height: 30px;
+}
+
+.email{
+
+    height: 70px;
+    width:680px ;
+   
+    margin-left: 6px;
+    margin-top: 10px;
+
+}
+
+.email h3{
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+
+.email input{
+
+    margin-left: 10px;
+    width: 600px;
+    border: 1PX SOLID white;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+ }
+
+.age{
+    height: 70px;
+    width:680px ;
+    
+    margin-left: 6px;
+    margin-top: 10px;
+
+}
+.age h3{
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+
+.age input{
+    margin-left: 10px;
+    width: 600px;
+    border: 1PX SOLID white;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.choose{
+
+    height: 70px;
+    width:680px ;
+    
+    margin-left: 6px;
+    margin-top: 10px;
+
+
+}
+
+
+
+.choose h3{
+
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+
+}
+
+.choose select{
+    margin-left: 10px;
+    width: 600px;
+    border: 1PX SOLID white;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+
+} 
+
+.recommend{
+    height: 70px;
+    width:680px ;
+   
+    margin-left: 6px;
+    margin-top: 10px;
+
+
+}
+.recommend h3{
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+
+
+
+}
+
+.favorite{
+    height: 70px;
+    width:680px ;
+   
+    margin-left: 6px;
+    margin-top: 10px;
+
+}
+
+.favorite h3{
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+
+
+}
+
+.favorite select{
+    margin-left: 10px;
+    width: 600px;
+    border: 1PX SOLID white;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+
+}
+
+.check{
+    height: 70px;
+    width:680px ;
+   
+    margin-left: 6px;
+    margin-top: 10px;
+
+}
+.check h3{
+    color: rgb(244, 242, 248);
+    font-size: 30px;
+    padding-left: 10px;
+
+
+}
+.submit{
+    height: 70px;
+    width:680px ;
+    
+    margin-left: 6px;
+    margin-top: 10px
+
+}
+
+.submit input{
+    margin-left: 10px;
+    width: 600px;
+    font-size: 20px;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    height: 30px;
+    justify-content: center;
+    background-color:blue;
+    border: none;
+    cursor: pointer;
+
+}
+.submit input:hover{
+    color: black;
+}
+
+/* main body  */
+
+@media screen and (max-width: 600px) {
+
+    .header{
+        width: 100%;
+        background-color: black;
+        display: none;
+
+    }
+
+    .container1{
+        margin-left: 10px;
+    }
+
+
+
+    .container1 h2{
+        font-size: 15px;
+        color:skyblue;
+        
+    }
+
+    .container1 p{
+        font-size: 10px;
+        color:white;
+    }
+
+    .container2{
+        width: 400px;
+    }
+
+    .name input{
+        width: 350px;
+
+
+        
+    }
+    .name h3{
+        font-size: 17px;
+    }
+
+    .email input{
+        width: 350px;
+
+    }
+    .email h3{
+        font-size: 17px;
+    }
+
+    .age input{
+        width: 350px;
+    }
+    .age h3{
+        font-size: 17px;
+    }
+
+    .choose select{
+        width: 350px;
+        
+    }
+    .choose h3{
+        font-size: 17px;
+    }
+    .recommend h3{
+        font-size: 17px;
+    }
+
+    .favorite h3{
+        font-size: 17px;
+    }
+     .favorite select{
+        width: 350px;
+     }
+
+     .check h3{
+        font-size: 17px;
+     }
+     
+
+
+     .submit input{
+        width: 350px;
+        background-color: green;
+     }
+
+
+     .icon span{
+        color: rgb(202, 28, 218);
+        background-color: rgb(13, 240, 164);
+
+     }
+
+     .icon span:hover{
+        background-color: white;
+     }
+
+}
+    
+
+
+
